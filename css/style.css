@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+section{
+    display:block;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    max-width: 900px;
+    margin: auto;
+}
+.welcomebox, .products, .about {
+    padding: 30px 20px;
+}
+
+header{
+    background-color: #06D6A0;
+    padding: 20px;
+    text-align: center;
+}
+.logo{
+    margin: 0;
+    color: white;
+    font-size: 32px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    margin-bottom: 5px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.welcomebox{
+    text-align: center;
+    background-color: #26547C;
+}
+.welcome >h2{
+    border-bottom: 5px solid red;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+.cats{
+    background-color: goldenrod;
+    margin: 0;
+}
+.products{
+    background-color: #F2F2F2;
+    margin: 0;
+}
+
+.about{
+    background-color: #26547C;
+    float: left;
+}
+
+.about-head{
+    overflow: hidden;
+
+}
+.about-fun,
+.about-values,
+.about-meow {
+  float: left;
+  width: 33.33333%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #EF476F;
+}
+
+footer{
+    display:inline-block;
+    box-sizing: border-box;
+    background-color: #06D6A0;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    text-align: right;
+    margin:0;
+    width:100%;
+}
+.clearfix{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+@media screen and (min-width: 550px){
+.product-img {
+    float: left;
+    width: 33%;
+    padding: 10px;
+}
+.product-img > img {
+    border: 3px solid black;
+  }
+html {
+    font-size: 1.2em;
+}
+header {
+    overflow: hidden;
+    height: 60px;
+    padding: 0 20px;
+  }
+
+  .logo {
+    float: left;
+    line-height: 60px;
+    font-size: 18px;
+
+  }
+
+  .navbar {
+    float: right;
+    padding: 0;
+  }
+
+  .nav-item {
+    display: inline-block;
+    margin-right: 10px;
+    line-height: 60px;
+  }
+}
